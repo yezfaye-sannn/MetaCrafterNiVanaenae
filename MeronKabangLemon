@@ -28,8 +28,6 @@ function listNFTs () {
 function getTotalSupply() {
     console.log("\n" + NFTs.length);
 }
-
-
     mintNFT("Vanaenae", "Black", "Black", "Sweater", "Choker");
     mintNFT("Gepard", "Blue", "Blonde", "Tank Top", "Guitar Case");
     mintNFT("Dan Heng", "Green", "Black", "Jacket", "Earrings");
