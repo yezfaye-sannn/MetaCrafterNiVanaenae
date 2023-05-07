@@ -17,20 +17,20 @@ function mintNFT (_name, _eyeColor, _hairColor, _shirtType, _bling) {
 function listNFTs () {
     for(let i = 0; i < NFTs.length; i++) {
         console.log("\nID: \t\t\t\t" + (i + 1));
-        console.log("Name: \t\t\t" + NFTs[i].name); 
+        console.log("Name: \t\t" + NFTs[i].name); 
         console.log("Eyecolor: \t" + NFTs[i].eyeColor);
         console.log("Hair Color: " + NFTs[i].hairColor);
         console.log("Shirt Type: " + NFTs[i].shirtType);
-        console.log("Accessory: \t" + NFTs[i].bling);
+        console.log("Bling: \t\t" + NFTs[i].bling);
     }
 }
 
 function getTotalSupply() {
     console.log("\n" + NFTs.length);
 }
-    mintNFT("Vanaenae", "Black", "Black", "Sweater", "Choker");
-    mintNFT("Gepard", "Blue", "Blonde", "Tank Top", "Guitar Case");
-    mintNFT("Dan Heng", "Green", "Black", "Jacket", "Earrings");
-    mintNFT("Welt", "Brown", "Brown", "Coat", "Glasses");
+    mintNFT("Vanaenae", "Black", "Black", "Sweater", "Sapphire Choker");
+    mintNFT("Gepard", "Blue", "Blonde", "Tank Top", "Golden Guitar Case");
+    mintNFT("Dan Heng", "Green", "Black", "Jacket", "Diamon Earrings");
+    mintNFT("Welt", "Brown", "Brown", "Coat", "Obsidian Glasses");
     listNFTs();
     getTotalSupply();
